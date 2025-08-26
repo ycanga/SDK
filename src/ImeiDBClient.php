@@ -7,8 +7,6 @@ use GuzzleHttp\Exception\GuzzleException;
 use imeidb\sdk\exceptions\BaseException;
 use Psr\Http\Message\ResponseInterface;
 
-require __DIR__ . '/../vendor/autoload.php';
-
 class ImeiDBClient
 {
     /**
